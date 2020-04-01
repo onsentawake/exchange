@@ -1,3 +1,5 @@
+#pipfile.lock?が何なのか調べる 
+
 #ソースに関するパッケージ
 [[source]]
 name = "pypi"
