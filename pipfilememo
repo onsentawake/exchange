@@ -1,4 +1,5 @@
 #pipfile.lock?が何なのか調べる 
+#nosetests -v -sについて調べる
 
 #ソースに関するパッケージ
 [[source]]
