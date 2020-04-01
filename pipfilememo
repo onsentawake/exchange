@@ -1,0 +1,39 @@
+#ソースに関するパッケージ
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+"""
+all done
+pypi pipでインスコするための貯蔵庫のようなもの？一応pipでインストールしたらできた。
+""""
+
+#開発用パッケージ
+[dev-packages]
+flake8 = "*"
+nose = "*"
+parameterized = "*"
+autopep8 = "*"
+
+"""
+all installed
+flake8 共同開発するためのツール？
+"""
+
+#ライブラリ？
+[packages]
+requests = "==2.22.0"
+slackclient = "*"
+
+""""
+both done
+""""
+
+
+[requires]
+python_version = "3.7"
+
+"""
+ok
+"""
